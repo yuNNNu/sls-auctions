@@ -1,0 +1,7 @@
+curl --location --request POST 'https://dev-u23xqnct.us.auth0.com/oauth/token' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'client_id=FXbdLvy4sgN6L7PAH2ozFSQKTNEd8GOI' \
+--data-urlencode 'username=' \
+--data-urlencode 'password=' \
+--data-urlencode 'grant_type=password' \
+--data-urlencode 'scope=openid'
